@@ -14,6 +14,9 @@
 		D556D55B1DA28D6500AD34DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D556D5591DA28D6500AD34DC /* LaunchScreen.storyboard */; };
 		D556D5661DA28D6500AD34DC /* MenuTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556D5651DA28D6500AD34DC /* MenuTestTests.swift */; };
 		D556D5711DA28D6500AD34DC /* MenuTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556D5701DA28D6500AD34DC /* MenuTestUITests.swift */; };
+		D556D57F1DA28E6900AD34DC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556D57E1DA28E6900AD34DC /* Extensions.swift */; };
+		D556D5811DA2968700AD34DC /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556D5801DA2968700AD34DC /* MenuCell.swift */; };
+		D5A094E21DA2B1550031771D /* settingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A094E11DA2B1550031771D /* settingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		D556D56C1DA28D6500AD34DC /* MenuTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D556D5701DA28D6500AD34DC /* MenuTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTestUITests.swift; sourceTree = "<group>"; };
 		D556D5721DA28D6500AD34DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D556D57E1DA28E6900AD34DC /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D556D5801DA2968700AD34DC /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		D5A094E11DA2B1550031771D /* settingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				D556D5501DA28D6500AD34DC /* AppDelegate.swift */,
+				D556D57E1DA28E6900AD34DC /* Extensions.swift */,
 				D556D5521DA28D6500AD34DC /* ViewController.swift */,
 				D556D5541DA28D6500AD34DC /* Main.storyboard */,
 				D556D5571DA28D6500AD34DC /* Assets.xcassets */,
 				D556D5591DA28D6500AD34DC /* LaunchScreen.storyboard */,
 				D556D55C1DA28D6500AD34DC /* Info.plist */,
+				D556D5801DA2968700AD34DC /* MenuCell.swift */,
+				D5A094E11DA2B1550031771D /* settingView.swift */,
 			);
 			path = MenuTest;
 			sourceTree = "<group>";
@@ -260,6 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D556D5531DA28D6500AD34DC /* ViewController.swift in Sources */,
+				D5A094E21DA2B1550031771D /* settingView.swift in Sources */,
+				D556D57F1DA28E6900AD34DC /* Extensions.swift in Sources */,
+				D556D5811DA2968700AD34DC /* MenuCell.swift in Sources */,
 				D556D5511DA28D6500AD34DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +517,7 @@
 				D556D5771DA28D6500AD34DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D556D5781DA28D6500AD34DC /* Build configuration list for PBXNativeTarget "MenuTestTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				D556D57A1DA28D6500AD34DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D556D57B1DA28D6500AD34DC /* Build configuration list for PBXNativeTarget "MenuTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				D556D57D1DA28D6500AD34DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
